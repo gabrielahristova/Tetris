@@ -1,0 +1,72 @@
+body {
+    background: -webkit-gradient(linear, left top, left bottom, from(#ff4b9f), to(#fff)) fixed;
+}
+
+h3 {
+    font-family: sans-serif;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+
+}
+
+button {
+    margin-top: 40px;
+    margin-left: 44%;
+    background-color: transparent;
+    border: 1px solid #fff;
+    font-size: 18px;
+    padding: 5px;
+    color: #fff;
+    transition: 0.15s;
+    margin-bottom: 5px;
+
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #fff;
+    color: lightpink;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+}
+
+.grid {
+    width: 200px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    
+}
+
+.grid div {
+    height: 20px;
+    width: 20px;
+}
+
+.tetromino {
+    background-color: blue;
+}
+
+.mini-grid {
+    margin-left: 50px;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+}
+
+.mini-grid div {
+    width: 20px;
+    height: 20px;
+}
